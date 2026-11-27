@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>問題表單</title>
+    <link rel="icon" type="image/png" sizes="32*32" href="img/name.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    *{margin:0;padding:0;}
+    body {width:100%;min-width:600px;max-width:960px;margin:0 auto;}
+    header {width:100%;background:#f5da8b;}
+    nav {width:100%;background:black; color:white;}
+    main {width:100%;background:#D3E1E8;min-height:1300px;padding:20px 0;}
+    footer {width:100%;background:#e0d8cb;clear:both;}
+
+    /* 自訂圓角卡片樣式：替代 W3.CSS，避免污染原本的全域字體與標題間距 */
+    .form-card {
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      width: 90%;
+      margin: 0 auto;
+      padding: 25px;
+    }
+    </style>
+
+  </head>
+  <body>
+<header>
+<h1><p>&ensp;</p>
+<h1>鋁與鎵人生好難專區</h1>
+<h3>人生無常，大腸包小腸</h3>
+<ul style="list-style-position: inside;">
+ <li><a href="#title1">關於我</a></li>
+ <li><a href="#title2">大學歷程</a></li>
+ <li><a href="#title3">技能專長</a></li>
+</ul>
+</header>
+<nav>
+  <h1>
+    <a href="ex2.html" target="_blank"><i class="fa fa-home" aria-hidden="true"></i>首頁 </a>
+    <a href="aboutme.html" target="_blank"><i class="fa fa-user-o" aria-hidden="true"></i>關於我 </a>
+    <a href="album.html" target="_blank"><i class="fa fa-book" aria-hidden="true"></i>相簿區 </a>
+    <a href="questionnaire.html" target="_blank"><i class="fa fa-file" aria-hidden="true"></i>問題表單 </a>
+    <a href="aboutme.html" target="_blank"><i class="fa fa-cog" aria-hidden="true"></i>設定</a>
+  </h1>
+</nav>
+
+
+
+<main>
+
+<!-- 用純 CSS 卡片包覆表單區塊 -->
+<div class="form-card">
+
+<h1>Vocaloid</h1>
+<h2>1.Vocaloid是甚麼</h2>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> 虛擬歌手</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> AI合成</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> HOWHOW</label><br>
+  <br>
+<hr>
+  
+  
+  <h2>2.關於角色</h2>
+
+
+  <p>Vocaloid著名角色:</p>
+  <input type="radio" id="html" name="fav_language" value="時雨羽衣">
+  <label for="html">時雨羽衣</label><br>
+  <input type="radio" id="css" name="fav_language" value="初音未來">
+  <label for="css">初音未來</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="洛天依">
+  <label for="javascript">洛天依</label>
+
+  <br>  
+
+  <p>手臂上的代號:</p>
+  <input type="radio" id="age1" name="age" value="30">
+  <label for="age1">01</label><br>
+  <input type="radio" id="age2" name="age" value="60">
+  <label for="age2">02</label><br>  
+  <input type="radio" id="age3" name="age" value="100">
+  <label for="age3">03</label><br><br>
+  <hr>
+
+
+<h2>3.喜歡的角色</h2>
+
+
+  <label for="cars">選擇喜歡的角色:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">初音未來</option>
+    <option value="saab">鏡音鈴</option>
+    <option value="opel">鏡音連</option>
+    <option value="audi">巡音流歌</option>
+    <option value="opel">Meiko</option>
+    <option value="audi">Kaito</option>
+  </select>
+  <br><br>
+  <hr>
+
+<h2>4.惡之系列</h2>
+<p>以下哪些是惡之系列的歌曲</p>
+
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> 悪ノ娘</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> 悪ノ召使</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> 悪魔の子</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> その時、ージョンの刻</label><br> 
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> 命に嫌われている</label><br> 
+   <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> リグレットメッセージ</label><br><br><hr>
+
+<h2>5.P主</h2>
+
+  <label for="cars">喜歡的P主（按住ctrl可多選）：</label>
+  <select name="hobbies" id="hobby-select" multiple size="6">
+  <option value="reading">Neru</option>
+  <option value="gaming">Deco*27</option>
+  <option value="traveling">wowaka</option>
+  <option value="cooking">まふまふ</option>
+  <option value="cooking">PinocchioP</option>
+  <option value="cooking">暴走P</option>
+  </select>
+  <br><br><hr>
+  
+
+
+<h2>6.最喜歡的歌曲</h2>
+
+<label for="cars">喜歡的V家歌曲：</label>
+<input type="text" placeholder="請在此輸入文字...">
+  <br><br><hr>
+  
+
+
+
+
+<h2>7.初音未來幾歲</h2>
+
+<label for="cars">官方設定歲數：</label>
+<input type="number" min="10" max="30" step="1">
+
+  <br><br><hr>
+  
+
+
+<h2>8.初音未來的生日</h2>
+
+<label for="bday">選擇生日：</label>
+<input type="date" id="bday" name="bday">
+<br><br><hr>
+  
+
+
+<h2>9.對Vocaloid的問題</h2>
+
+
+  <p><label for="w3review">對V家的問題:</label></p>
+  <textarea id="w3review" name="w3review" rows="3" cols="50">對於V家的問題/不認識V家的看法/V家和Vtuber的差別</textarea>
+  <br><br><hr>
+  <input type="reset" value="重設">
+  <input type="submit" value="提交">
+</form>
+
+</div>
+
+</main>
+<footer>
+ <p>&copy; 2026 鋁與鎵股份有限公司</p>
+ <p>地址:台南市永康區南台街1號</p>
+ <p>電話:06-1234567</p>
+ <p>聯絡資訊:AL&GAcompony@gmail.com</p>
+ <p><a href="#">Back to top</a></p>
+</footer>
+
+ </body>
+</html>

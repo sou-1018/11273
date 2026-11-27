@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>莊佩榆的作業二</title>
+    <link rel="icon" type="image/png" sizes="32*32" href="img/name.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+   *{margin:0;padding:0;}
+   body {width:100%;min-width:600px;max-width:960px;margin:0 auto;}
+   header {width:100%;background:#D3E1E8;}
+   nav {width:100%;background:black; color:white;}
+   main {width:70%;background:#f5da8b;height:500px;float:right;}
+   aside {width:30%;background:#e0ccb6; height:500px;float:left;}
+   footer {width:100%;background:#e0d8cb;clear:both;}
+ 
+   </style>
